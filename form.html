@@ -1,26 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
-
 </head>
+
 <body>
+
     <div class="container">
-        <form action="" class="mb-3">
-            <div class="row">
-                <div class="mb-3 col">
+        <form class="mb-3" >
+            
+                <div class="mb-3">
                     <label for="email" class="form-label">Email</label>
 
-                    <input type="text" class="form-control" name="" id="email" placeholder="Email">
+                    <input type="text" class="form-control" id="email" placeholder="Email">
                 </div>
 
-                  <div class="mb-3 col">
+                 <div class="mb-3">
                     <label for="password" class="form-label">Password</label>
 
-                    <input type="password" class="form-control" name="" id="password" placeholder="Email">
-                </div>
+                    <input type="password" class="form-control" id="password" placeholder="Email">
+                 </div>
+
+                <div class="mb-3">
+                    <label for="address" class="form-label">Address</label>
+
+                    <input type="text" id="address" class="form-control" placeholder="Address">
+                 </div>
+
+               <div class="mb-3">
+                <select name="" id="" class="form-select">
+                    <option selected>Choose your City</option>
+                    <option value="1">Mumbai</option>
+                    <option value="2">Delhi</option>
+                    <option value="3">Pune</option>
+                </select>
+               </div>
+
+              <div class="normal mb-3">
+                <input type="checkbox" name="" id="agree" >
+                 <label for="agree">Agree</label>
+              </div>
+
+              <div class="mb-3 form-check">
+                <input type="checkbox" name="" id="agreebs" class="form-check-input">
+                <label for="agreebs" class="form-check-label">Agree</label>
+              </div>
+
+              <div class="mb-3 form-check">
+                <input type="radio" name="r" id="radiobs" class="form-check-input">
+                <label for="radiobs" class="form check-label">Yes</label>
+              </div>
+
+               <div class="mb-3 form-check">
+                <input type="radio" name="r" id="radiobs" class="form-check-input">
+                <label for="radiobs" class="form check-label">No</label>
+               </div>
+
+              <div class="form-check form-switch mb-3">
+                <input type="checkbox" class="form-check-input" role="switch"
+                id="flexSwitchcheckdefault"/>
+                <label for="flexSwitchcheckdefault" class="form-check-label">DefaultSwitch</label>
+              </div>
             
             </div>
 
